@@ -1,2 +1,2 @@
 # Roguelight website
-Hosted at roguelight.net
+Hosted at www.roguelight.net
