@@ -96,7 +96,7 @@ img.game-title{
     width: 75vw;
   }
 }
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1280px) {
   .video-mask > video {
     width: 50vw;
   }
@@ -112,7 +112,7 @@ img.game-title{
     margin-right: 0;
   }
 }
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1280px) {
   #carouselExampleIndicators {
     margin-left: 25%;
     margin-right: 25%;
@@ -138,7 +138,7 @@ img.game-title{
     padding: 2.5vw;
   }
 }
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1280px) {
   .links {
     flex-direction: row;
   }
