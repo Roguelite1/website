@@ -3,7 +3,7 @@
     document.addEventListener("mousemove", parallax);
     const elem = document.querySelector(".background-image");
     // Magic happens here
-    function parallax(e) {
+    /*function parallax(e) {
         let _w = window.innerWidth/2;
         let _h = window.innerHeight/2;
         let _mouseX = e.clientX;
@@ -12,6 +12,6 @@
         //console.log(x);
         //elem.style.backgroundPosition = x;
 	    elem.style.transform = x;
-    }
+    }*/
 
 })();

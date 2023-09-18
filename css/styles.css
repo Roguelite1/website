@@ -36,11 +36,11 @@ body {
   background-repeat: no-repeat;
 }
 
-.container {
+/*.container {
   height: 100%;
   width: 100%;
   position: relative;
-}
+}*/
 
 .content {
   position: absolute;
@@ -59,8 +59,8 @@ body {
 .content > div,
 .content > img
  {
-  padding-left: 22.5vw;
-  padding-right: 22.5vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
 }
 
 .scrollable-flex-content {
@@ -88,35 +88,77 @@ img.game-title{
   width: 100%;
   border-radius: 10px;
   overflow: hidden;
-  margin-bottom: 10vh;
+  margin-bottom: 5vh;
 }
 
-.video-mask > video {
-  width: 50vw;
+@media only screen and (min-width: 0) {
+  .video-mask > video {
+    width: 75vw;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .video-mask > video {
+    width: 50vw;
+  }
+}
+
+#carouselExampleIndicators {
+  margin-bottom: 2.5vh;
+}
+
+@media only screen and (min-width: 0) {
+  #carouselExampleIndicators {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media only screen and (min-width: 900px) {
+  #carouselExampleIndicators {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
 }
 
 .links {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 10vh;
+  margin-bottom: 7.5vh;
 }
 
 .links > div:hover {
   box-shadow: 1px 1px 10px 5px white;
 }
 
+@media only screen and (min-width: 0) {
+  .links {
+    flex-direction: column;
+  }
+  .links > div {
+    margin-top: 5vw;
+    padding: 2.5vw;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .links {
+    flex-direction: row;
+  }
+  .links > div {
+    padding: 1vw;
+  }
+}
+
 .download {
-  background-color: #ff8fbd;
+  /*background-color: #ff8fbd;*/
+  background-color: #c9c9c9;
   border-radius: 10px;
   font-family: Alamain;
-  padding: 1vw;
 }
 
 .source {
-  background-color: #00d1d6;
+  /*background-color: #00d1d6;*/
+  background-color: #c9c9c9;
   border-radius: 10px;
   font-family: Alamain;
-  padding: 1vw;
 }
 
 .made-by {
@@ -124,7 +166,14 @@ img.game-title{
   color: white;
   font-family: Alamain;
   justify-content: space-evenly;
-  margin-bottom: 10vh;
+  margin-bottom: 7.5vh;
+}
+
+.maintenance {
+  color: #ff8fbd;
+  text-shadow: 0 0 10px red;
+  font-family: Alamain;
+  margin-bottom: 7.5vh;
 }
 
 .made-by > div {
@@ -137,6 +186,10 @@ img.game-title{
   font-weight: bold;
 }
 
+.made-by > div > ul > li {
+  padding-top: 2vh;
+}
+
 .who {
   display: flex;
   align-items: center;
@@ -145,9 +198,9 @@ img.game-title{
 }
 
 .grupo-proyecto {
-  height: 10vw;
+  height: 150px;
 }
 
 .bsm-upf {
-  height: 5vw;
+  height: 50px;
 }
