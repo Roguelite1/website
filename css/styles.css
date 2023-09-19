@@ -43,6 +43,7 @@ body {
 }*/
 
 .content {
+  font-size: 1.75em;
   position: absolute;
   top: 0;
   left: 0;
@@ -167,6 +168,17 @@ img.game-title{
   font-family: Alamain;
   justify-content: space-evenly;
   margin-bottom: 7.5vh;
+}
+
+@media only screen and (min-width: 0) {
+  .made-by {
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .made-by {
+    flex-direction: row;
+  }
 }
 
 .maintenance {
